@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+// //EJERCICIO 3
+import React from "react";
+import Card from "./Ejercicio3";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <Card/>
+    );
 }
 
 export default App;
+
+//-------------------------------------------------------------------//
+//EJERCICIO 2
+// import React from "react";
+// import ProductCard from "./Ejercicio2";
+
+// function App() {
+//   return (
+//       <div>
+//         <h1 style={{padding: "10px", margin: "5px"}}>Productos</h1>
+//         <ProductCard name="Smartphone" precio="$2.900.000"/>
+//         <ProductCard name="Laptop" precio="$4.800.000"/>
+//         <ProductCard name="Tablet" precio="$1.400.000"/>
+//       </div>
+//   );
+// }
+
+// export default App;
+
+//-----------------------------------------//
+//EJERCICIO 1
+// import React from "react";
+// import ProfileCard from "./Ejercicio1"
+
+// function App() {
+//     return (
+//       <div>
+//         <ProfileCard/>
+//       </div>
+//     );
+// }
+
+// export default App;

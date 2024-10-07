@@ -1,0 +1,33 @@
+body {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    border: 1px solid #fc0fad93;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    background-color: #ffa8e99a;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 3s;
+}
+
+.profile-card:hover {
+    transform: rotateY(360deg);
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px rgb(197, 93, 175);
+}
+
+.profile-description {
+    color: #555;
+}
